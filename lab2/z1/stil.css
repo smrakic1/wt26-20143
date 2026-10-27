@@ -1,0 +1,65 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Gabriela);
+// napomena ovi fontovi koji search ucitavaju moraju nav vrh
+body {
+    background-color: #a7a09a;
+    margin: 0;
+}
+
+#okvir {
+    width: 100%;
+    margin: 0;
+    background-color: #99c;
+    overflow: hidden; 
+}
+
+#zaglavlje {
+    background-color: #ddd;
+    padding: 0 10px;
+}
+
+    #zaglavlje h1 {
+        font-family: 'Gabriela', serif;
+        font-size: 42pt;
+        color: green;
+        margin: 0;
+    }
+
+#meni {
+    background-color: #c99;
+    padding: 2px 10px;
+}
+
+    #meni ul {
+        list-style-type:none;
+        margin: 0;
+        padding: 0;
+    }
+
+    #meni li {
+        display: inline; /* linkovi u jednom redu */
+        margin-right: 3px;
+    }
+
+#glavni {
+    float: left;
+    width: 480px;
+    padding: 10px;
+    background-color: #9c9;
+}
+
+#desno {
+    float: left;
+    width: 230px;
+    padding: 10px;
+    background-color: #c9a;
+}
+
+#podnozje {
+    clear: both;
+    background-color: #cc9;
+    padding: 1px 10px;
+}
+
+#podnozje p {
+        margin: 8px 0;
+    }

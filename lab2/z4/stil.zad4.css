@@ -1,0 +1,25 @@
+﻿body {
+    font-family: "Times New Roman", serif;
+    margin: 0;
+    padding: 15px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+/* traka napretka: širina kao na screenshotu */
+progress {
+    width: 165px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+/* svako polje u svom redu, bez razmaka između redova */
+.polje {
+    margin: 0;
+}
+
+.dugmad {
+    margin-top: 20px;
+}

@@ -1,0 +1,39 @@
+﻿
+body {
+    font-family: "Times New Roman", serif;
+    margin: 0;
+    padding: 15px;
+    background-color: yellow;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin-top: 0px;
+    background-color: yellow;
+}
+
+th, td {
+    border: 1px solid black; /* Tanka siva ivica */
+    padding: 12px;
+    text-align: center; /* Poravnanje teksta lijevo */
+}
+#glavni-naslov {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0px; /* Spušta naslov sasvim blizu tabele */
+    font-weight: normal;
+    font-size: 18px;
+}
+
+th {
+    background-color: #808080;
+    color: black;
+}
+.lijevo {
+    text-align: left;
+}
+.center {
+    text-align: center;
+}
+
